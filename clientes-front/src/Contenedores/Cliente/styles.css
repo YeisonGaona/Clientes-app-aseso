@@ -1,0 +1,47 @@
+.cliente {
+    background: #eae8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border-radius: 10px;
+}
+thead{
+    border: 1px solid #dddddd;
+}
+th{
+    background-color: #2196f3;
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+tr:hover{
+    cursor: pointer;
+}
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+td > button{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 1px solid #333;
+    height: 30px;
+}
+td > button:hover{
+    cursor: pointer;
+}
+
+html, body, #app, #app>div {
+    height: 100%
+  }
